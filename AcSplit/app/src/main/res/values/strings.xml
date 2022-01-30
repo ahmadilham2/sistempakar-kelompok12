@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ac Split</string>
+
+    <string name="air_conditioner_service"><![CDATA[AIR CONDITIONER & SERVICE]]></string>
+    <string name="text_beranda">Bank Papua menyediakan transaksi secara Tunai yang tentunya aman dan nyaman</string>
+    <string name="text_home">Anda akan menemukan solusi mengenai permasalahan AC (Air conditioner)</string>
+    <string name="masuk">Masuk</string>
+    <string name="banking_mobile">Banking Mobile</string>
+    <string name="filter_ac_anda_kotor">     Filter Ac Anda Kotor?</string>
+    <string name="freon_anda_bocor">Freon anda Bocor?</string>
+    <string name="kompresor_ac_anda_berkarat">Kompresor Ac Anda Berkarat?</string>
+    <string name="beritahu_kami_masalah_anda">Beritahu kami masalah anda</string>
+    <string name="apakah_lampu_indikator_pada_ac_anda_berkedip">Apakah lampu Indikator pada AC anda berkedip?</string>
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+</resources>

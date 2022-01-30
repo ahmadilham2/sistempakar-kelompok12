@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_gmbr"
+    tools:context=".Pertanyaan_1">
+
+    <TextView
+        android:id="@+id/pGejala"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/pJawabY"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="164dp"
+        app:layout_constraintEnd_toStartOf="@+id/pJawabT"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pGejala"
+        app:layout_constraintTop_toBottomOf="@+id/pGejala" />
+
+    <ImageButton
+        android:id="@+id/pJawabT"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/pGejala"
+        app:layout_constraintTop_toBottomOf="@+id/pGejala" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ya"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/pJawabY"
+        app:layout_constraintEnd_toEndOf="@+id/pJawabY"
+        app:layout_constraintStart_toStartOf="@+id/pJawabY"
+        app:layout_constraintTop_toTopOf="@+id/pJawabY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tidak"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/pJawabT"
+        app:layout_constraintEnd_toEndOf="@+id/pJawabT"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="@+id/pJawabT"
+        app:layout_constraintTop_toTopOf="@+id/pJawabT" />
+</androidx.constraintlayout.widget.ConstraintLayout>
